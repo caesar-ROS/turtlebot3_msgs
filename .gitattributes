@@ -1,0 +1,17 @@
+# 텍스트 파일은 LF로 통일
+* text=auto eol=lf
+
+# 바이너리로 취급(메시·이미지·CAD 등)
+*.stl binary
+*.dae binary
+*.ply binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.pdf binary
+
+# (선택) rosbag2/MCAP을 LFS로 관리하려면 아래는 LFS 섹션에서 설정
+# *.db3 binary
+# *.mcap binary
+
